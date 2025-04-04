@@ -1,7 +1,7 @@
 function shortcut(s1, s2) {
   // your code here
-	if(s1.length===0 || s2.length ===0) console.log("");
-	else console.log(s1[0]+""+s2[0])
+	if(s1.length===0 || s2.length ===0) return  "";
+	else return s1[0]+""+s2[0];
 }
 
 
